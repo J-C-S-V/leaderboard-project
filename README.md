@@ -1,7 +1,7 @@
 <div align="center">
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
-  <h3><b>[/*TITLE]</b></h3>
+  <h3><b>Leaderboard project</b></h3>
 </div>
 
 # 📗 Table of Contents
@@ -27,9 +27,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [/*TITLE] <a name="about-project"></a>
+# 📖 Leaderboard project <a name="about-project"></a>
 
-**[/*TITLE]** is my first project with Microverse 😀. Here we'll see a very basic web page using the standards of the industry 💻
+**Leaderboard project** is a web application that allows users to view and track scores for a particular game or activity 🏓🎮🎳. The application uses an API to retrieve score data, and displays it in a table on the web page page. The frontend is built using modern technologies like Webpack and ES6, which help to bundle and optimize the JavaScript code ✅. Gitflow is used as a version control system to manage changes to the codebase 🧩, while wireframes help to visualize the layout and design of the application. Additionally, the project makes use of async code to ensure that score data is retrieved and displayed efficiently, without slowing down the user interface ✨.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -37,6 +37,7 @@
 
 <details>
   <summary>Languages and technologies</summary>
+  
   <ul>
     <li><a href="#">JavaScript</a></li>
   </ul>
@@ -49,6 +50,9 @@
   <ul>
     <li><a href="#">Git and GitHub</a></li>
   </ul>
+   <ul>
+    <li><a href="#">Webpack</a></li>
+  </ul>
 </details>
 
 <!-- Features -->
@@ -57,7 +61,7 @@
 
 - **[Easy navigation]**
 - **[Mobile first approach]**
-- **[]**
+- **[APIs]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -65,10 +69,11 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://j-c-s-v.github.io/Portfolio-setup-and-mobile-first/)
+<!-- - [Live Demo Link](https://j-c-s-v.github.io/Portfolio-setup-and-mobile-first/) -->
+
+(pending...)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- GETTING STARTED -->
 
@@ -92,13 +97,15 @@ git clone https://github.com/J-C-S-V/hello_microverse_project.git
 
 Install this project with:
 
-N/A
+`npm install`
 
 ### Usage
 
 To run the project, execute the following command:
 
-N/A
+`npm start`
+
+`npm run build`
 
 ### Run tests
 
@@ -118,11 +125,10 @@ GitHub pages
 
 👷‍♂️ **Juan Sanchez**
 
-- Email: [juansan1993@hotmail.com](juansan1993@hotmail.com)
+- Email: [Juan Sanchez](mailto:juansan1993@hotmail.com)
 - LinkedIn: [Juan Sanchez](https://www.linkedin.com/in/juan-carlos-sanchez-vargas-a308b014b/)
 - GitHub: [Juan Sanchez](https://github.com/J-C-S-V)
 - Twitter: [Juan Sanchez](https://twitter.com/juansan0)
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -132,7 +138,7 @@ GitHub pages
 
 - [ ] **[Payment]**
 - [ ] **[Jest tests]**
-- [ ] **[API integration]**
+- [ ] **[Live demo]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
