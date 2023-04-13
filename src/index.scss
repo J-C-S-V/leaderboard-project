@@ -73,12 +73,12 @@ button:hover {
   cursor: pointer;
 }
 
-.ul li:nth-child(odd) {
-  background-color: $secondary-maroon;
-}
-
 li {
   padding: 1rem;
+}
+
+.ul li:nth-child(odd) {
+  background-color: $secondary-maroon;
 }
 
 .ul {
