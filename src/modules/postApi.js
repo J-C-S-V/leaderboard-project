@@ -15,10 +15,12 @@ const postData = () => {
 
   fetch(
     `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${gameId}/scores/`,
-    options,
+    options
   )
     .then((response) => response.json())
-    .then((data) => console.log(data));
+    .then((data) =>
+      data && data.result ? alert(JSON.stringify(data.result)) : null
+    );
 };
 
 export default postData;

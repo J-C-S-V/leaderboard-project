@@ -5,13 +5,13 @@ const ul = document.querySelector('.ul');
 const fetchData = async () => {
   try {
     const response = await fetch(
-      `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${gameId}/scores/`,
+      `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${gameId}/scores/`
     );
     ul.innerHTML = '';
     const data = await response.json();
     for (let i = 0; i < data.result.length; i += 1) {
       const li = document.createElement('li');
-      li.innerHTML = `<li>${data.result[i].user}: ${data.result[i].score}</li>`;
+      li.innerHTML = `${data.result[i].user}: ${data.result[i].score}`;
       ul.appendChild(li);
     }
   } catch (error) {
