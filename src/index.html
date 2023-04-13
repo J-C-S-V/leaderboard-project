@@ -17,24 +17,30 @@
           <button class="main__button">Refresh</button>
         </div>
         <ul class="ul">
-          <li>Name: 100</li>
+          <!-- <li>Name: 100</li>
           <li>Name: 20</li>
           <li>Name: 50</li>
           <li>Name: 78</li>
           <li>Name: 125</li>
           <li>Name: 77</li>
-          <li>Name: 18</li>
+          <li>Name: 18</li> -->
         </ul>
       </section>
       <section>
         <h2 class="main__h">Add your score</h2>
-        <form
-          class="form"
-          action="https://us-central1-js-capstone-backend.cloudfunctions.net/api/"
-          method="post"
-        >
-          <input class="form__element" type="text" placeholder="Your name" />
-          <input class="form__element" type="number" placeholder="Your score" />
+        <form class="form" onsubmit="return false">
+          <input
+            class="form__element form__element--name"
+            type="text"
+            name="user"
+            placeholder="Your name"
+          />
+          <input
+            type="number"
+            name="score"
+            placeholder="Your score"
+            class="form__element form__element--score"
+          />
           <button class="form__element form__button" type="submit">
             Submit
           </button>
