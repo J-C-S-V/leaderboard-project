@@ -3,8 +3,8 @@
 $primary-maroon: #831843;
 $secondary-maroon: #9d174d;
 $third-maroon: #ff69b4;
-$primary-white: #e0c5cf;
-$primary-grey: #c5c5c5;
+$primary-white: #b2b2b2;
+$primary-grey: #1b1245;
 $primary-font: 'Chivo Mono', sans-serif;
 
 *,
@@ -52,11 +52,16 @@ body {
 
 button {
   background-color: $third-maroon;
-  color: $primary-white;
+  color: $primary-grey;
   border: none;
   border-radius: 0.5rem;
   font-size: 1.5rem;
   font-family: $primary-font;
+}
+
+button:hover {
+  background-color: $secondary-maroon;
+  cursor: pointer;
 }
 
 input {
@@ -66,11 +71,6 @@ input {
   font-size: 1.5rem;
   font-family: $primary-font;
   padding: 0.5rem;
-}
-
-button:hover {
-  background-color: $secondary-maroon;
-  cursor: pointer;
 }
 
 li {
