@@ -20,7 +20,7 @@ formSubmitButton.addEventListener('click', () => {
 
   fetch(
     `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${gameId}/scores/`,
-    options
+    options,
   )
     .then((response) => response.json())
     .then((data) => console.log(data));
@@ -30,10 +30,10 @@ formSubmitButton.addEventListener('click', () => {
 async function fetchData() {
   try {
     const response = await fetch(
-      `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${gameId}/scores/`
+      `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${gameId}/scores/`,
     );
     const data = await response.json();
-    for (let i = 0; i < data.result.length; i++) {
+    for (let i = 0; i < data.result.length; i += 1) {
       const li = document.createElement('li');
       li.innerHTML = `<li>${data.result[i].user}: ${data.result[i].score}</li>`;
       ul.appendChild(li);
