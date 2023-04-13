@@ -41,6 +41,6 @@ const fetchData = async () => {
   } catch (error) {
     console.log(error);
   }
-}
+};
 
 refreshButton.addEventListener('click', fetchData);
