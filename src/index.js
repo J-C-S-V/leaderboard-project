@@ -1,6 +1,5 @@
 import './index.scss';
 
-// My game
 const gameId = 'JANudAkE59i9uvoF85MJ';
 
 const user = document.querySelector('.form__element--name');
@@ -8,8 +7,6 @@ const score = document.querySelector('.form__element--score');
 const formSubmitButton = document.querySelector('.form__button');
 const refreshButton = document.querySelector('.main__button');
 const ul = document.querySelector('.ul');
-
-let myData;
 
 // POST data to API
 formSubmitButton.addEventListener('click', () => {
