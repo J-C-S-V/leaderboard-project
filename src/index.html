@@ -4,8 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="./dist/main.js"></script>
-
     <title>Leaderboard</title>
   </head>
   <body>
@@ -17,20 +15,32 @@
           <button class="main__button">Refresh</button>
         </div>
         <ul class="ul">
-          <li>Name: 100</li>
+          <!-- <li>Name: 100</li>
           <li>Name: 20</li>
           <li>Name: 50</li>
           <li>Name: 78</li>
           <li>Name: 125</li>
           <li>Name: 77</li>
-          <li>Name: 18</li>
+          <li>Name: 18</li> -->
         </ul>
       </section>
       <section>
         <h2 class="main__h">Add your score</h2>
         <form class="form" onsubmit="return false">
-          <input class="form__element" type="text" placeholder="Your name" />
-          <input class="form__element" type="number" placeholder="Your score" />
+          <input
+            class="form__element form__element--name"
+            type="text"
+            name="user"
+            placeholder="Your name"
+            required
+          />
+          <input
+            class="form__element form__element--score"
+            type="number"
+            name="score"
+            placeholder="Your score"
+            required
+          />
           <button class="form__element form__button" type="submit">
             Submit
           </button>

@@ -1,5 +1,6 @@
 <div align="center">
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="https://user-images.githubusercontent.com/109441277/231770707-99631d21-2389-48cd-8208-6e26633995ad.png" alt="logo" width="440"  height="auto" />
+
   <br/>
   <h3><b>Leaderboard project</b></h3>
 </div>
@@ -10,7 +11,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -62,16 +62,6 @@
 - **[Easy navigation]**
 - **[Mobile first approach]**
 - **[APIs]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-<!-- - [Live Demo Link](https://j-c-s-v.github.io/Portfolio-setup-and-mobile-first/) -->
-
-(pending...)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
