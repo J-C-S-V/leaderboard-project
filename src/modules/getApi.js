@@ -11,7 +11,7 @@ const fetchData = async () => {
     const data = await response.json();
     for (let i = 0; i < data.result.length; i += 1) {
       const li = document.createElement('li');
-      li.innerHTML = `<li>${data.result[i].user}: ${data.result[i].score}</li>`;
+      li.innerHTML = `${data.result[i].user}: ${data.result[i].score}`;
       ul.appendChild(li);
     }
   } catch (error) {

@@ -1,6 +1,11 @@
-$primary-black: #000;
-$primary-grey: #c5c5c5;
-$primary-font: 'Roboto', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&display=swap');
+
+$primary-maroon: #831843;
+$secondary-maroon: #9d174d;
+$third-maroon: #ff69b4;
+$primary-white: #b2b2b2;
+$primary-grey: #1b1245;
+$primary-font: 'Chivo Mono', sans-serif;
 
 *,
 *::before,
@@ -17,11 +22,17 @@ html {
 body {
   font-size: 2rem;
   font-family: $primary-font;
-  margin: auto;
+  margin: auto 10%;
+  color: $primary-white;
 }
 
 .header {
   margin: 4rem;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
 }
 
 .main__header-container {
@@ -34,19 +45,47 @@ body {
   padding: 0.5rem;
 }
 
-.main {
-  display: flex;
-  justify-content: space-around;
+.main__h {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
 }
 
-.ul {
-  list-style: none;
-  border: 3px solid $primary-black;
+button {
+  background-color: $third-maroon;
+  color: $primary-grey;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  font-family: $primary-font;
+}
+
+button:hover {
+  background-color: $secondary-maroon;
+  cursor: pointer;
+}
+
+input {
+  background-color: $primary-white;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  font-family: $primary-font;
+  padding: 0.5rem;
+}
+
+li {
   padding: 1rem;
 }
 
 .ul li:nth-child(odd) {
-  background-color: $primary-grey;
+  background-color: $secondary-maroon;
+}
+
+.ul {
+  list-style: none;
+  background-color: $primary-maroon;
+  height: 50vh;
+  overflow-y: scroll;
 }
 
 .form {
@@ -64,7 +103,16 @@ body {
   align-self: flex-end;
 }
 
-.main__h {
-  font-size: 2.5rem;
-  margin-bottom: 2rem;
+@media (max-width: 768px) {
+  .main {
+    flex-direction: column;
+  }
+
+  .main__section-1 {
+    order: 1;
+  }
+
+  .ul {
+    height: 30vh;
+  }
 }
